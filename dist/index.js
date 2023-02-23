@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv_1 = __importDefault(require("dotenv"));
 const express_1 = __importDefault(require("express"));
 const joke_1 = __importDefault(require("./router/joke"));
-const serverless = require('serverless-http');
 const cors = require('cors');
 dotenv_1.default.config();
 const app = (0, express_1.default)();

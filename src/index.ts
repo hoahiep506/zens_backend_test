@@ -1,7 +1,6 @@
 import env from 'dotenv';
 import express, { Express } from 'express';
 import jokeRouter from './router/joke';
-const serverless = require('serverless-http');
 const cors = require('cors');
 
 env.config();
